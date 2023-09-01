@@ -108,11 +108,18 @@ form{
     }
     form{
         flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 @media screen and (max-width: 480px){
     .search-resalt{
         width: 100%;
+    }
+    form{
+        flex-wrap: wrap;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
